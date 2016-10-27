@@ -50,6 +50,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="DeleteEachEvenListElementTest.cs" />
+    <Compile Include="HaveTwoListsCommonItemsTest.cs" />
     <Compile Include="HasListALoopTest.cs" />
     <Compile Include="SingleLinkedList.cs" />
     <Compile Include="ReverseSingleLinkedListTest.cs" />
