@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DeleteEachEvenListElementTest.cs" />
+    <Compile Include="FindNthElementFromTheEndTest.cs" />
     <Compile Include="HaveTwoListsCommonItemsTest.cs" />
     <Compile Include="HasListALoopTest.cs" />
     <Compile Include="SingleLinkedList.cs" />
