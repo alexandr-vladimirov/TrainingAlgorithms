@@ -50,6 +50,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="SherlockAndArrayTest.cs" />
+    <Compile Include="SherlockAndArray.cs" />
     <Compile Include="DeleteEachEvenListElementTest.cs" />
     <Compile Include="FindNthElementFromTheEndTest.cs" />
     <Compile Include="IsSearchBinaryTreeTest.cs" />
