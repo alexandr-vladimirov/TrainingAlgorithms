@@ -52,8 +52,10 @@
   <ItemGroup>
     <Compile Include="DeleteEachEvenListElementTest.cs" />
     <Compile Include="FindNthElementFromTheEndTest.cs" />
+    <Compile Include="IsSearchBinaryTreeTest.cs" />
     <Compile Include="HaveTwoListsCommonItemsTest.cs" />
     <Compile Include="HasListALoopTest.cs" />
+    <Compile Include="BinaryTree.cs" />
     <Compile Include="SingleLinkedList.cs" />
     <Compile Include="ReverseSingleLinkedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
