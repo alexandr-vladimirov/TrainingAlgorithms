@@ -50,6 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="FindLongestLineSegmentTest.cs" />
     <Compile Include="SherlockAndArrayTest.cs" />
     <Compile Include="SherlockAndArray.cs" />
     <Compile Include="DeleteEachEvenListElementTest.cs" />
