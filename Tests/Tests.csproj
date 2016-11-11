@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="FindLongestLineSegmentTest.cs" />
     <Compile Include="CalcCupCapacityTest.cs" />
+    <Compile Include="FindMinSegmentWithMaxOrTest.cs" />
     <Compile Include="SherlockAndArrayTest.cs" />
     <Compile Include="SherlockAndArray.cs" />
     <Compile Include="DeleteEachEvenListElementTest.cs" />
