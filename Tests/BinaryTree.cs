@@ -38,22 +38,17 @@ namespace Tests
         public List<int> Traverse()
         {
             var result = new List<int>();
-            if (root == null)
-                return result;
-
             var queue = new Queue<BinaryTreeNode>();
             queue.Enqueue(root);
 
             do
             {
                 var node = queue.Dequeue();
+                if (node == null)
+                    continue;
                 result.Add(node.Value);
-
-                if (node.Right != null)
-                    queue.Enqueue(node.Right);
-
-                if (node.Left != null)
-                    queue.Enqueue(node.Left);
+                queue.Enqueue(node.Right);
+                queue.Enqueue(node.Left);
             } while (queue.Count > 0);
 
             result.Reverse();
