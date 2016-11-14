@@ -55,6 +55,7 @@
     <Compile Include="FindMinSegmentWithMaxOrTest.cs" />
     <Compile Include="FindOnlyDuplicateNumber.cs" />
     <Compile Include="FindOnlyDuplicateNumberTest.cs" />
+    <Compile Include="TreeTraverseTest.cs" />
     <Compile Include="SherlockAndArrayTest.cs" />
     <Compile Include="SherlockAndArray.cs" />
     <Compile Include="DeleteEachEvenListElementTest.cs" />
