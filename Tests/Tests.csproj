@@ -51,6 +51,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="NumberToWordsConverterTest.cs" />
+    <Compile Include="NumberToWordsConverter.cs" />
     <Compile Include="FindLongestLineSegmentTest.cs" />
     <Compile Include="CalcCupCapacityTest.cs" />
     <Compile Include="FindMinSegmentWithMaxOrTest.cs" />
