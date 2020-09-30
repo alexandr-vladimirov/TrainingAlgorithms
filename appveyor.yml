@@ -1,0 +1,8 @@
+version: 1.0.{build}
+nuget:
+  project_feed: true
+before_build:
+- cmd: nuget restore AzurePipeline/AzurePipeline.sln
+build:
+  project: AzurePipeline/AzurePipeline.sln
+  verbosity: minimal
