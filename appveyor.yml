@@ -6,3 +6,7 @@ before_build:
 build:
   project: AzurePipeline/AzurePipeline.sln
   verbosity: minimal
+branches:  
+  only:
+    - master
+    - dev
